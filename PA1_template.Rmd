@@ -55,7 +55,7 @@ output: html_document
 max(mean.steps$steps)
 ```
 
-# Imputing missing values
+# Inputing missing values
 
 1 . Number of missing values in the dataset
 
@@ -90,20 +90,22 @@ max(mean.steps$steps)
         hist(sum.steps2$steps, main = paste ("Histogram of steps"), xlab = "steps", ylim = c(0,30))
 ```
 
-# Mean
+Mean
 ```{r}
         mean(sum.steps2$steps, na.rm = TRUE)
 
 ```
 
-# Median
+Median
 ```{r}
 
         median(sum.steps2$steps, na.rm = TRUE)
 
 ```
 
-# Mean and Mediana increased 
+Mean and Mediana increased
+
+
 
 # Are there differences in activity patterns between weekdays and weekends?
 
